@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cameron.no_wait.RestaurantInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NoWait"
+        android:id="@+id/Title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textIsSelectable="true"
+        android:background="#ff033f07"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the wait time you experienced below."
+        android:id="@+id/prompt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/userEntry"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" "
+        android:id="@+id/restaurantName"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/Title"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

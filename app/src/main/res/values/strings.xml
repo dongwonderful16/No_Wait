@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">No_Wait</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_restaraunt_info">RestarauntInfo</string>
+    <string name="title_activity_restaurant_info">RestaurantInfo</string>
+    <string name="title_activity_map_list">MapList</string>
+</resources>
